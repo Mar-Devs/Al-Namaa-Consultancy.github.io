@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <link rel="icon" href="icons8-mail-50.png" />
+    <title>Let's Talk</title>
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Let's Talk</h2>
+        </div>
+        <div class="container">
+            <div class="contact_info">
+                <div class="box">
+                    <div class="icon"><img src="icons8-pin-50.png" /></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>20 W 34th St., <br>New York, NY <br>10001, <br>USA</p>
+
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="icon"> <img src="icons8-phone-50.png" /></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+00000000</p>
+
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="icon"> <img src="icons8-mail-50.png" /> </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>example@alnamaaoCnsultancy.net</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contact_form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2>Send Message</h2>
+                    <div class="input_box">
+                        <input type="hidden" name="access_key" value="a2aac214-9e68-468b-b5ba-1baf4ae870af">
+                        <input type="text" name="full_name" value="" required="required" />
+                        <span>Full Name</span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="email" required="required" />
+                        <span>Email</span>
+
+                    </div>
+                    <div class="input_box">
+                        <input type="text" name="message" required="required" />
+                        <span>Type Your Message...</span>
+
+                    </div>
+                    <div class="input_box">
+                        <input type="submit" name="" value="Send" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>

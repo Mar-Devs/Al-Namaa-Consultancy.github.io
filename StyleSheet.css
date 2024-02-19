@@ -1,0 +1,405 @@
+﻿body {
+    background: url('chris-czermak-cRBCdpGtPf4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: none;
+    color: #021f06;
+}
+
+#know {
+    color: #021f06;
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 20px 0;
+    margin-right: 150px;
+}
+
+nav, li, a {
+    color: #021f06;
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+
+    a.marginy, a:hover {
+        background: #a4aba6;
+        transition: .5s;
+        background-size: contain;
+    }
+
+#let {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    color: #021f06;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.priv {
+    margin-top: 550px;
+    margin-left: 680px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.testimonials {
+    padding: 40px 0;
+    background: url('patrick-tomasso-nApljhT9kfM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background-color: lightgray;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.pic {
+    border: inset;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+    border-color: white;
+}
+.abouty {
+    background: url('thom-holmes-RqASow2Y6Os-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.sub {
+    height: 300px;
+    width: 300px;
+    margin-left:450px;
+   /* margin-bottom:900px;*/
+}
+
+footer {
+ 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+    .footer_content h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 3rem;
+    }
+    .footer_content p {
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+    .socials li {
+        margin: 0 10px;
+    }
+    .socials a {
+        text-decoration: none;
+        color: white;
+    }
+        .socials a i {
+            font-size: 1.1rem;
+        }
+        .socials a:hover {
+            color: aquamarine;
+        }
+
+.footer_bottom {
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+#par {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+#spans {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('jon-r8AFUpRp0J0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.content h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 150px;
+     
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.contact_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.icon {
+    min-width: 60px;
+    height: 60px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+.text h3{
+    font-weight: 500;
+    color: black;
+
+}
+
+.contact_form{
+    width: 40%;
+    padding: 40px;
+    background: white;
+
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.input_box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.input_box input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.input_box span {
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.input_box input:focus ~ span, input:valid ~ span, textarea:focus ~ span,  textarea:valid ~ span{
+    color: black;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+    .input_box input[type="submit"] {
+        width: 100px;
+        background: #d499f0;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #second{
+        color: white;
+    }
+
+.service {
+    background: url('tim-kuhn-9XU9teGAiKM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
